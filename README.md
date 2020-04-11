@@ -2,7 +2,6 @@
 
 Generating new images of flowers using Keras to implement a [WGAN-GP](https://arxiv.org/pdf/1704.00028.pdf).
 
-<style>.flower-img {display: block !important;}</style>
 <img class="flower-img" src="./flowers_generated2.png">
 <img class="flower-img" src="./flowers_generated.png">
 
