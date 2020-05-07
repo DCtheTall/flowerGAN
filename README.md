@@ -1,6 +1,6 @@
 # OxfordWGAN
 
-Generating new images of flowers using Keras to implement a [WGAN-GP](https://arxiv.org/pdf/1704.00028.pdf).
+Generating new images of flowers using Keras to implement a [WGAN-GP](https://arxiv.org/pdf/1704.00028.pdf). The model is trained using the [Oxford Flowers dataset](https://www.robots.ox.ac.uk/~vgg/data/flowers/).
 
 <img class="flower-img" src="./flowers_generated2.png">
 <img class="flower-img" src="./flowers_generated.png">
@@ -16,7 +16,7 @@ They generally work by concurrently training two neural networks: one to generat
 Both neural networks have a competing training goal, the generator tries to generate samples that trick the critic and the critic is trying to learn to not be fooled by the generator.
 
 An improvement on the GAN architecture is the introduction of the [Wasserstein loss function](https://arxiv.org/pdf/1701.07875.pdf) and the use of [gradient penalty loss function](https://arxiv.org/pdf/1704.00028.pdf) on the critic's weights.
-Using these loss functions to train dueling convolutional neural networks (CNN's) we are able to generate images that look like they were sampled from the [Oxford Flowers dataset](https://www.robots.ox.ac.uk/~vgg/data/flowers/).
+Using these loss functions to train dueling convolutional neural networks (CNN's) we are able to generate images that look like they were sampled from the training set.
 
 <img src="./flowers_real.png">
 
