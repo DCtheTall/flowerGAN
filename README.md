@@ -1,4 +1,4 @@
-# OxfordWGAN
+# flowerGAN
 
 Generating new images of flowers using Keras to implement a [WGAN-GP](https://arxiv.org/pdf/1704.00028.pdf). The model is trained using the [Oxford Flowers dataset](https://www.robots.ox.ac.uk/~vgg/data/flowers/).
 
